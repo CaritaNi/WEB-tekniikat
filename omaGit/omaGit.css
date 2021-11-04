@@ -1,0 +1,28 @@
+body{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div:first-of-type{
+    border: midnightblue;
+    border-style: double;
+}
+div:nth-of-type(2){
+    border:firebrick;
+    border-style: double;
+}
+div:nth-of-type(3){
+    border-bottom: forestgreen;
+    border-width: 10px;
+    border-bottom-style: solid;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+}  
