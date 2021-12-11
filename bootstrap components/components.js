@@ -13,7 +13,7 @@ if (alertTrigger) {
   //Luo tapahtumankäsittelijä alertTriggerin click-eventille
   alertTrigger.addEventListener('click', function () {
     // Tarkistetaan onko etunimi syötetty
-    if ( document.getElementById("firstname").value.length > 0){
+    if ( document.getElementById("firstname").value.length > 0 ) {
       // Kutsutaan funktiota alert
       alert ('Form sent succesfully!', 'success')
     } else{
