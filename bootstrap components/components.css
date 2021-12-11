@@ -1,9 +1,0 @@
-div:nth-child(1){
-    background-color: cornflowerblue;
-    color: cornsilk;
-}
-button{
-    border-radius: 25px;
-    border-style: dashed, cadetblue;
-    border-width: 5px;
-}
