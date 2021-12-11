@@ -8,8 +8,17 @@ function alert(message, type) {
   alertPlaceholder.append(wrapper)
 }
 
+//Tarkista onko alertTrigger olemassa
 if (alertTrigger) {
+  //Luo tapahtumankäsittelijä alertTriggerin click-eventille
   alertTrigger.addEventListener('click', function () {
-    alert('Nice, you triggered this alert message!', 'success')
+    // Tarkistetaan onko etunimi syötetty
+    if ( document.getElementById("firstname").value.length > 0){
+      // Kutsutaan funktiota alert
+      alert ('Form sent succesfully!', 'success')
+    } else{
+      //kutsutaan funktiota  alert
+      alert ("Please enter first name", "danger")
+    }
   })
 }
