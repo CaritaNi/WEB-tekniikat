@@ -13,4 +13,9 @@ button{
     height: 40%;
     margin: auto; 
     display: block;
-    }
+}
+.carousel{
+    width: 40%;
+    height: 40%;
+    background-position: center center;
+}
