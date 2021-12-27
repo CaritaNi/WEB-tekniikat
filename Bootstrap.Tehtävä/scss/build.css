@@ -1,13 +1,11 @@
-@charset "UTF-8";
-
 header {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   margin-left: 40%;
   margin-right: 35%;
 }
 
 .nav-item:hover {
-  background-color: #006161;
+  background-color: #f18cfa;
   color: snow;
 }
 
@@ -35,13 +33,13 @@ div {
   margin-left: 20%;
   margin-right: 20%;
   font-size: 25px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   color: #05386B;
 }
 
 .otsikko {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 50em inherit;
   color: #05386B;
   background-color: aliceblue;
@@ -51,7 +49,7 @@ div {
 
 .intro, .nimi {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2em inherit;
   color: #05386B;
   background-color: aliceblue;
@@ -60,16 +58,9 @@ div {
   float: inherit;
 }
 
-body {
-  background-image: url("/picture/background-1409025_960_720.png);
-  background-repeat: no-repeat;
-  background-size: 200em;
-}
-
 .carousel-inner img, .carousel {
   margin: auto;
   border-radius: 10px;
   border-color: #05386B;
 }
-
-/*# sourceMappingURL=build.css.map */
+/*# sourceMappingURL=styles.css.map */

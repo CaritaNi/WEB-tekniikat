@@ -1,0 +1,72 @@
+header {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 40%;
+  margin-right: 35%;
+}
+
+body {
+  background-image: url(../scss/background-1409025_960_720.png);
+  background-size: cover;
+}
+
+.nav-item:hover {
+  background-color: #e9a3f0;
+  color: snow;
+}
+
+img {
+  width: 80vh;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20%;
+  float: inherit;
+}
+
+div {
+  float: center;
+  border-color: aliceblue;
+  border-radius: 10px;
+}
+
+#maski, #meikki, #piirros, #valokuvaus {
+  background-color: aliceblue;
+  border-color: #05386B;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #05386B;
+}
+
+.otsikko {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4em;
+  padding: 10px;
+  color: #05386B;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.intro, .nimi {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em inherit;
+  color: #05386B;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  float: inherit;
+}
+
+.carousel-inner img, .carousel {
+  margin: auto;
+  border-radius: 10px;
+  border-color: #05386B;
+}
+/*# sourceMappingURL=styles.css.map */
