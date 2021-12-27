@@ -1,15 +1,17 @@
-$background-img: url("/picture/background-1409025_960_720.png");
-
-@mixin theme {
-    background-image: url(/picture/background-1409025_960_720.png);
+@mixin background() {
+    background-image: url(../scss/background-1409025_960_720.png); 
+    background-size: cover;
 }
 header{
     font-family:'Courier New', Courier, monospace; 
     margin-left: 40%; 
     margin-right: 35%;
 }
+body{
+    @include background();
+}
 .nav-item:hover{
-    background-color: rgb(0, 97, 97);
+    background-color: rgb(89, 0, 97);
     color:snow;
 }
 img{
@@ -55,11 +57,6 @@ div{
     padding-bottom: 10px;
     border-radius: 10px;
     float: inherit;
-}
-body{
-    background-image: $background-img;
-    background-repeat: no-repeat;
-    background-size: 200em;
 }
 .carousel-inner img, .carousel {
     margin: auto;
