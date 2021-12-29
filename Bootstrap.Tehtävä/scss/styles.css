@@ -22,9 +22,12 @@ img {
   float: inherit;
 }
 
-div > ul {
-  float: center;
-  border-color: aliceblue;
+div > button:first-child{
+  border-radius: 10px;
+  background-color: rgb(rgb(18, 55, 124));
+}
+
+div > button:nth-child(2){
   border-radius: 10px;
 }
 
@@ -41,7 +44,6 @@ div > ul {
   font-family: 'Courier New', Courier, monospace;
   color: #05386B;
 }
-
 
 .otsikko {
   text-align: center;
