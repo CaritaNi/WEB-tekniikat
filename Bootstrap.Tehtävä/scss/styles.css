@@ -9,7 +9,7 @@ body {
   background-size: cover;
 }
 
-.nav-item:hover {
+li:hover {
   background-color: #e9a3f0;
   color: snow;
 }
@@ -22,7 +22,7 @@ img {
   float: inherit;
 }
 
-div {
+div > ul {
   float: center;
   border-color: aliceblue;
   border-radius: 10px;
@@ -41,6 +41,7 @@ div {
   font-family: 'Courier New', Courier, monospace;
   color: #05386B;
 }
+
 
 .otsikko {
   text-align: center;
@@ -64,9 +65,9 @@ div {
   float: inherit;
 }
 
-.carousel-inner img, .carousel {
+.carousel-inner img > .carousel {
   margin: auto;
-  border-radius: 10px;
+  border-radius: 5px;
   border-color: #05386B;
 }
 /*# sourceMappingURL=styles.css.map */
